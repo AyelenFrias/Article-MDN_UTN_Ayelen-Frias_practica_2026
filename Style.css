@@ -20,11 +20,41 @@ body {
   background-color: #000000;
   color: #ffff;
   line-height: 1.6;
- 
-  display: flex;
-  flex-direction: row;  
-  justify-content: space-between;
-  align-items: flex-start;
+  }
+
+header .Barra.Promocional {
+  background-color: #000000;
+  color: #ffff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #4a4a4a;
+  height: 50px;
+}
+
+
+.Barra.Promocional a {
+    text-decoration: underline;
+    color: #4704ff;
+      
+}
+
+header .Espacio.Vacío {
+    height: 50px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+header .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: 1px solid #4a4a4a;
+    color: #ffff;
+
+}
+
+.Logo svg {
+    fill:white
 }
 
 .menu {
@@ -33,6 +63,13 @@ body {
   padding: 20px;
   width: 220px;
   }
+
+ .Contenido {
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  align-items: flex-start;
+ }
 
 .filter {
     display: flex;
