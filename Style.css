@@ -45,16 +45,58 @@ header .Espacio.Vacío {
 
 header .Logo {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     height: 50px;
-    border-bottom: 1px solid #4a4a4a;
     color: #ffff;
+    width: 350;
 
 }
 
 .Logo svg {
     fill:white
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom: 1px solid #4a4a4a; 
+}
+
+.acciones-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    width: 350;
+}
+
+.Navegación__enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom: 1px solid #4a4a4a; 
+    flex-grow: 1;
+}
+
+.buscador {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+
+    border: 1px solid gray;
+    border-radius: 20px;
 }
 
 .menu {
