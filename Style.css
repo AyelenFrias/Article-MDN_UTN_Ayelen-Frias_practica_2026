@@ -99,6 +99,29 @@ header nav {
     border-radius: 20px;
 }
 
+.menu-desplegable {
+    position: relative;
+}
+
+.contenido-desplegable {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 740px;
+    background-color: #1b1b1b;
+
+    z-index: 10;
+}
+
+.columnas-desplegable {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+}
+
 .menu {
   background-color: #000000;
   color: #ffff;
